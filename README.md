@@ -45,6 +45,14 @@ This will install the development dependencies listed in the devDependencies sec
     tailwindcss
     vite
 
+Running the Project
+
+Once you have installed all the dependencies, you can run the project using the following command:
+
+```bash
+npm start
+
+
 Usage
 
 Explain how to use the project or provide code examples.
