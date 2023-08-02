@@ -49,8 +49,8 @@ Running the Project
 
 Once you have installed all the dependencies, you can run the project using the following command:
 
-```bash
-npm start
+
+``npm start``
 
 
 Usage
