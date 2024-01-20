@@ -1,11 +1,14 @@
+// Summary: This code is a React component that displays feedback cards from testimonials. It uses the framer-motion library for animation and styling. The testimonials data is fetched from a constants file and rendered using the FeedbackCard component.
+
 import React from 'react';
 import { motion, spring } from 'framer-motion';
 
 import { styles } from '../style';
 import { fadeIn, textVariant } from '../utils/motion';
-
 import { testimonials } from '../constants';
-import { SectionWraper } from '../hoc';
+import SectionWraper from '../hoc';
+
+// FeedbackCard component renders an individual feedback card
 const FeedbackCard = ({
   index,
   testimonial,
@@ -32,17 +35,13 @@ const FeedbackCard = ({
               {designation} of {company}
             </p>
           </div>
-          <img
-            src={image}
-            alt={`Feedback -by-${name}`}
-            className='w-10 h-10 rounded-full object-cover'
-          />
         </div>
       </div>
     </div>
   </motion.div>
 );
 
+// Feedbacks component displays a section with testimonial feedback cards
 const Feedbacks = () => {
   const bgClolor = 'backdrop-filter backdrop-blur-sm bg-opacity-30';
   return (

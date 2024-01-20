@@ -40,7 +40,7 @@ const Hero = () => {
                 }}
                 className='w-3 h-3 rounded-full bg-secondary md-1'
               />
-            </div>
+            </div>  
           </a>
         </div>
       </section>

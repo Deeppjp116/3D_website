@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import emailjs from '@emailjs/browser';
 
 import { styles } from '../style';
-import { SectionWraper } from '../hoc';
+import SectionWraper from '../hoc';
 import { EarthCanvas, StarsCanvas } from './canvas';
 import { slideIn } from '../utils/motion';
 

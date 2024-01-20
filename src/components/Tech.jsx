@@ -1,5 +1,5 @@
 import { BallCanvas } from './canvas';
-import { SectionWraper } from '../hoc';
+import SectionWraper from '../hoc';
 import { technologies } from '../constants';
 const bgcolor = 'backdrop-filter backdrop-blur-sm bg-opacity-0  ';
 

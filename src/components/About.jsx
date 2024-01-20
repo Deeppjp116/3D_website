@@ -6,7 +6,7 @@ import { styles } from '../style';
 import { services } from '../constants';
 import { fadeIn, textVariant } from '../utils/motion';
 
-import { SectionWraper } from '../hoc';
+import SectionWraper from '../hoc';
 const bgClolor = 'backdrop-filter backdrop-blur-sm bg-opacity-30';
 
 const ServiceCard = ({ index, title, icon }) => {
